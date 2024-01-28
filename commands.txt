@@ -1,0 +1,9 @@
+cd C:\Users\bahap\Desktop\programs\uni programs\zip\nginx-1.24.0\nginx-1.24.0
+start nginx
+start nginx.exe
+nginx -s reload
+cd C:\Users\bahap\Desktop\web\test1
+start /B node web1.js
+start /B node web2.js
+start /B node web3.js
+start /B node web4.js

@@ -1,0 +1,8 @@
+cmd < commands.txt
+type commands.txt|cmd
+
+for /l %i in (1,1,10) do curl -I http://localhost:2777
+
+cd C:\Users\bahap\Desktop\programs\uni programs\zip\nginx-1.24.0\nginx-1.24.0
+nginx -s reload
+cd C:\Users\bahap\Desktop\web\test1
